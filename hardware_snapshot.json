@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-11-08T13:38:14.8192463Z",
+  "cpu": "13th Gen Intel(R) Core(TM) i7-13650HX",
+  "ram_bytes": 33957834752,
+  "os": {
+    "Caption": "Майкрософт Windows 11 Pro",
+    "Version": "10.0.26200"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU, 8188 MiB"
+}

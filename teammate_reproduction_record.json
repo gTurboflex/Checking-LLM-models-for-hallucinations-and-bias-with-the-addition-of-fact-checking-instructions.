@@ -1,0 +1,13 @@
+{
+  "confirmed_utc": "2026-11-08T15:33:34.661842+00:00",
+  "participants": [
+    "Danial",
+    "Diyar"
+  ],
+  "confirmation_text": "Danial success Diyar success",
+  "source": "User confirmation in this conversation after instructions to run Reproduce_Results.cmd independently",
+  "command": "Reproduce_Results.cmd",
+  "reported_outcome": "SUCCESS for both participants",
+  "scope": "Offline regeneration of tables and figures from saved main responses, plus coverage/provenance validation; no new 2400-response inference run claimed",
+  "environment_detail": "The launcher uses an isolated .venv; separate participant machine/environment logs were not supplied"
+}

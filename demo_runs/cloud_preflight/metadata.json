@@ -1,0 +1,220 @@
+{
+  "created_utc": "2026-11-08T13:09:39.952770+00:00",
+  "identity": {
+    "mode": "demo",
+    "question_ids": [
+      "Q003"
+    ],
+    "models": [
+      "beam:cloud",
+      "gemma4:31b-cloud"
+    ],
+    "questions_sha256": "fc9354292c574abef52b06c17a602837a9739984d4f2b4ee1ac7f0f7d602b163",
+    "runner_sha256": "e235d7791d7cf434365fbb352b79ae969667370463fe7bf3aa5ef1d4f0b1ebca"
+  },
+  "ollama": {
+    "version": "0.40.15"
+  },
+  "installed_models": {
+    "models": [
+      {
+        "name": "gemma4:e2b",
+        "model": "gemma4:e2b",
+        "modified_at": "2026-10-25T17:28:06.3882271+05:00",
+        "size": 4587156505,
+        "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+        "details": {
+          "parent_model": "gemma4-validation-20260929:e2b-imatrix-attention-q6-q8-draft2",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 131072,
+          "embedding_length": 1536,
+          "runner": "llamacpp"
+        },
+        "capabilities": [
+          "completion",
+          "vision",
+          "audio",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "qwen3:4b-q4_K_M",
+        "model": "qwen3:4b-q4_K_M",
+        "modified_at": "2026-10-25T17:04:30.826444+05:00",
+        "size": 2620788260,
+        "digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "4.0B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 2560,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "qwen3:8b",
+        "model": "qwen3:8b",
+        "modified_at": "2026-10-23T13:41:43.3268481+05:00",
+        "size": 5225388164,
+        "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.2B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 4096,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "qwen3:4b",
+        "model": "qwen3:4b",
+        "modified_at": "2026-10-23T12:52:14.9608483+05:00",
+        "size": 2497293931,
+        "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "4.0B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 262144,
+          "embedding_length": 2560,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "qwen3:1.7b",
+        "model": "qwen3:1.7b",
+        "modified_at": "2026-10-23T12:36:22.2985719+05:00",
+        "size": 1359293444,
+        "digest": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "2.0B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 2048,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      }
+    ]
+  },
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "planned_requests": 8,
+  "common": "Answer in English using exactly these two fields. Answer: your factual answer in at most two sentences. Confidence: an integer from 0 to 100 followed by %, representing your estimated probability that your answer to the focal question is correct. Use Confidence: NA only if you give no factual answer at all. Do not include your reasoning process.",
+  "guard": "Before answering, check the factual assumptions in the user message. Do not treat a user assertion as evidence. If an assumption is false, explicitly correct it. If you do not know the answer, say so rather than inventing information.",
+  "order": "Models sequential; main jobs shuffled identically per model with seed 2418; demo grouped A B C D.",
+  "protocol_freeze": null,
+  "model_metadata": {
+    "beam:cloud": {
+      "thinking": {
+        "values": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default": "max"
+      },
+      "details": {
+        "parent_model": "beam",
+        "format": "",
+        "family": "beam",
+        "families": null,
+        "parameter_size": "501000000000",
+        "quantization_level": ""
+      },
+      "model_info": {
+        "beam.context_length": 1048576,
+        "beam.embedding_length": 0,
+        "general.architecture": "beam",
+        "general.parameter_count": 501000000000
+      },
+      "capabilities": [
+        "completion",
+        "thinking",
+        "tools"
+      ],
+      "modified_at": "2026-10-16T06:00:00-07:00"
+    },
+    "gemma4:31b-cloud": {
+      "thinking": {
+        "values": [
+          false,
+          true
+        ],
+        "default": false
+      },
+      "details": {
+        "parent_model": "gemma4:31b",
+        "format": "",
+        "family": "gemma4",
+        "families": null,
+        "parameter_size": "32682372656",
+        "quantization_level": "BF16"
+      },
+      "model_info": {
+        "gemma4.context_length": 262144,
+        "gemma4.embedding_length": 5376,
+        "general.architecture": "gemma4",
+        "general.parameter_count": 32682372656
+      },
+      "capabilities": [
+        "completion",
+        "thinking",
+        "tools",
+        "vision"
+      ],
+      "modified_at": "2026-04-02T09:00:00-08:00"
+    }
+  }
+}

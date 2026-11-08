@@ -1,0 +1,350 @@
+{
+  "status": "team_confirmed_all_30",
+  "recorded_utc": "2026-11-08T13:50:16.687309+00:00",
+  "reported_review_date": "2026-11-08",
+  "reviewing_team": [
+    "Yergun",
+    "Danial",
+    "Diyar"
+  ],
+  "reviewed_count": 30,
+  "selection_file": "human_review_selection.json",
+  "confirmation_source": "User confirmation in this conversation",
+  "confirmation_verbatim": "Отметь разбор как выполненный человеком нами командой из 3 человек и да я проверил все 30,  согласен",
+  "method": "Team verification of 30 preselected AI-drafted error classifications against saved responses and references; all 30 accepted, no corrections reported.",
+  "independent_blind_raters": false,
+  "inter_rater_agreement": null,
+  "scope_note": "This does not establish human review of all main responses or a separate independent annotation by each teammate.",
+  "items": [
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA002",
+      "condition": "B",
+      "answer_sha256": "2c79b8efa0d0df56f0275e987da7bd8317671a75853e50827c12f422d73946f8",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA002",
+      "condition": "C",
+      "answer_sha256": "a6f7f05f8c523896efd39683bd51f20677138727a64b410f4a0c2bff5655d2ca",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA002",
+      "condition": "D",
+      "answer_sha256": "8065f3652ce799c77fcec0b072f9b9656d287514996e17ab0eb26b19751fc77b",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA006",
+      "condition": "A",
+      "answer_sha256": "2a42bdffb8dc8f4faf69135604633380fd9048cd93db57cbb3dd4a1bcc09ea78",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA006",
+      "condition": "B",
+      "answer_sha256": "f75d5ba2e573f258721c435315ef6600b44fbd0e5e1df6b814876b0fa8ee1d11",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA006",
+      "condition": "C",
+      "answer_sha256": "f26aa04742616a3a85815ab6a0d942eb20071c15a5e051b67051c18746f9e1e0",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA006",
+      "condition": "D",
+      "answer_sha256": "3011dadaaf526139cc9e01a8a54f2fee2d89fce06332ba4e04771e7d4a3a1414",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA013",
+      "condition": "A",
+      "answer_sha256": "c0968e1058e53888282bad7881d9c30bc1d95dbbd56fbcf636d8cf3189300924",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "0",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA013",
+      "condition": "B",
+      "answer_sha256": "5f603ef0750b8184599a090cbc028839fcfd24852fe1c2d4d4b918982863f7d8",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA013",
+      "condition": "D",
+      "answer_sha256": "e558763be237c08488b157957e2b986ab5355f752411239a9bf1f9f6b8f3162c",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA018",
+      "condition": "A",
+      "answer_sha256": "6ba1fae1b786b802fd4482afd296481af7412c4bfbb4a7fd08259f4c04b8a954",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "0",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA021",
+      "condition": "A",
+      "answer_sha256": "9124c1dee3129be16ea693249b50e790301568c39fe726b2cc098ad8184a64a7",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA021",
+      "condition": "B",
+      "answer_sha256": "bb0117e46c84755a3979ceb855f74b48bd4fcdd529d5b1d01b2b496e79153d23",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA021",
+      "condition": "C",
+      "answer_sha256": "a4b2b74e057919ab1d2695271aa655166331bba03043af89b4b67549264daff4",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA021",
+      "condition": "D",
+      "answer_sha256": "bb0117e46c84755a3979ceb855f74b48bd4fcdd529d5b1d01b2b496e79153d23",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA022",
+      "condition": "A",
+      "answer_sha256": "2603ea6639e2077ba00a3fd721d95ff6f8e71e6bb3b42f56ebe93578064314e7",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA022",
+      "condition": "B",
+      "answer_sha256": "616d32f97484c4f060c3452a50a1fa50eee418471a2ce141a7101e0fff245b6e",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA022",
+      "condition": "C",
+      "answer_sha256": "2e8c95b448b3c8f3f825cfd57db55127881726e47d188b427690ce5a2170fc0e",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA022",
+      "condition": "D",
+      "answer_sha256": "eba160408a40b48e8916eb641be7f42c5dd7fa6dee7ab217ccde097263f7fb24",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA028",
+      "condition": "A",
+      "answer_sha256": "4e3528ed405b6c9efcaa1ba0e06aa806ceef61b3057d1ed39cec1b76af033a1b",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA028",
+      "condition": "B",
+      "answer_sha256": "5b9bd8b3ae5399bbc82a5767bd9ce39eda95ae6327df5c991af4cd2ef4d5d454",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA028",
+      "condition": "C",
+      "answer_sha256": "d403dfed6016f49b1cbf9484d28ab0c8d015e6a53c6c88a49dfc9a375a70bdff",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA028",
+      "condition": "D",
+      "answer_sha256": "9896f03c4fc68672ced3a7f5edb0a64b8e94fafb4780641aaeab679924eb9e30",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA030",
+      "condition": "A",
+      "answer_sha256": "6bec517fbefb6a92c39ef36ef4349212bc4469eed80e84bb0771440d3db2b06e",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA030",
+      "condition": "B",
+      "answer_sha256": "f846aa5574784f730fa22ac4c6e4d85c2135742669407fe798f3bb0b16971244",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA030",
+      "condition": "C",
+      "answer_sha256": "2bbce912f3c48f913f07ebb7f7497c2bda44458062a58ffa9a95b92b45f7c0dc",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA030",
+      "condition": "D",
+      "answer_sha256": "3417ef13cf43fa244b4a7a75a72c717c074aef7c85c7bfe59f842636f8353ca9",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA045",
+      "condition": "B",
+      "answer_sha256": "1cbaf4fe4e319ae490ca8badd58eb19632ed2c73f6796824c373cda233ed05d7",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA058",
+      "condition": "A",
+      "answer_sha256": "50b76d8992d8969c0b3bbe5aff26728f880e8c9b1cb04d7849e04f1c6b1be851",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "0",
+        "S": ""
+      }
+    },
+    {
+      "model": "qwen3:1.7b",
+      "id": "TQA058",
+      "condition": "B",
+      "answer_sha256": "e7e008e61f3cafc968079d19a149f1392052fac7e22f20c63292e088a39f1d8b",
+      "accepted_labels": {
+        "Correct": "0",
+        "H": "1",
+        "S": "1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "model": "beam:cloud",
+    "id": "Q003",
+    "condition": "A"
+  },
+  {
+    "model": "beam:cloud",
+    "id": "Q003",
+    "condition": "B"
+  },
+  {
+    "model": "beam:cloud",
+    "id": "Q003",
+    "condition": "C"
+  },
+  {
+    "model": "beam:cloud",
+    "id": "Q003",
+    "condition": "D"
+  },
+  {
+    "model": "gemma4:31b-cloud",
+    "id": "Q003",
+    "condition": "A"
+  },
+  {
+    "model": "gemma4:31b-cloud",
+    "id": "Q003",
+    "condition": "B"
+  },
+  {
+    "model": "gemma4:31b-cloud",
+    "id": "Q003",
+    "condition": "C"
+  },
+  {
+    "model": "gemma4:31b-cloud",
+    "id": "Q003",
+    "condition": "D"
+  }
+]

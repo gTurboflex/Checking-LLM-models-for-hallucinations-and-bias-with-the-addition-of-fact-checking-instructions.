@@ -1,0 +1,10 @@
+﻿model,id,condition,attempt,utc,status,reason,raw_reason,done_reason,selected_for_analysis,seconds
+beam:cloud,TQA658,C,1,2026-11-08T14:31:10.409255+00:00,ok,Output length limit,empty,length,True,8.032682599965483
+beam:cloud,TQA408,D,1,2026-11-08T14:35:30.913725+00:00,ok,Output length limit,length_truncation,length,True,10.01456469995901
+beam:cloud,TQA536,C,1,2026-11-08T14:38:09.231929+00:00,ok,Output length limit,empty,length,True,8.74760859995149
+beam:cloud,TQA536,B,1,2026-11-08T14:39:02.408259+00:00,ok,Output length limit,empty,length,True,10.505624699988402
+beam:cloud,TQA411,C,1,2026-11-08T14:43:17.824787+00:00,ok,Output length limit,length_truncation,length,True,6.866925199981779
+beam:cloud,TQA424,D,1,2026-11-08T14:47:23.250320+00:00,ok,Output length limit,length_truncation,length,True,8.594839200028218
+beam:cloud,TQA411,A,1,2026-11-08T14:48:54.228955+00:00,ok,Output length limit,empty,length,True,10.173269299906678
+beam:cloud,TQA425,D,1,2026-11-08T14:50:31.268715+00:00,ok,Output length limit,empty,length,True,9.825803600018844
+beam:cloud,TQA406,D,1,2026-11-08T14:53:04.003907+00:00,ok,Output length limit,length_truncation,length,True,8.945775100030005

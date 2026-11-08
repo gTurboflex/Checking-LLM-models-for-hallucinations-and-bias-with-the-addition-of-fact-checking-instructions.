@@ -1,0 +1,80 @@
+[
+  {
+    "model": "qwen3:1.7b",
+    "attempted": 4,
+    "valid": 4,
+    "technical_exclusions": 0,
+    "manual_review_required": 2,
+    "H_count": 2,
+    "H_denominator": 2,
+    "H_percent": 100.0,
+    "S_count": 2,
+    "S_denominator": 2,
+    "S_percent": 100.0
+  },
+  {
+    "model": "qwen3:4b-q4_K_M",
+    "attempted": 4,
+    "valid": 4,
+    "technical_exclusions": 0,
+    "manual_review_required": 0,
+    "H_count": 2,
+    "H_denominator": 4,
+    "H_percent": 50.0,
+    "S_count": 2,
+    "S_denominator": 2,
+    "S_percent": 100.0
+  },
+  {
+    "model": "qwen3:8b",
+    "attempted": 4,
+    "valid": 4,
+    "technical_exclusions": 0,
+    "manual_review_required": 0,
+    "H_count": 1,
+    "H_denominator": 4,
+    "H_percent": 25.0,
+    "S_count": 1,
+    "S_denominator": 2,
+    "S_percent": 50.0
+  },
+  {
+    "model": "gemma4:e2b",
+    "attempted": 4,
+    "valid": 4,
+    "technical_exclusions": 0,
+    "manual_review_required": 2,
+    "H_count": 2,
+    "H_denominator": 2,
+    "H_percent": 100.0,
+    "S_count": 0,
+    "S_denominator": 0,
+    "S_percent": null
+  },
+  {
+    "model": "beam:cloud",
+    "attempted": 4,
+    "valid": 4,
+    "technical_exclusions": 0,
+    "manual_review_required": 4,
+    "H_count": 0,
+    "H_denominator": 0,
+    "H_percent": null,
+    "S_count": 0,
+    "S_denominator": 0,
+    "S_percent": null
+  },
+  {
+    "model": "gemma4:31b-cloud",
+    "attempted": 4,
+    "valid": 4,
+    "technical_exclusions": 0,
+    "manual_review_required": 3,
+    "H_count": 0,
+    "H_denominator": 1,
+    "H_percent": 0.0,
+    "S_count": 0,
+    "S_denominator": 0,
+    "S_percent": null
+  }
+]

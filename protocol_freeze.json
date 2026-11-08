@@ -1,0 +1,16 @@
+{
+  "protocol_version": "main-100-v1",
+  "created_utc": "2026-11-08T13:12:56.902121+00:00",
+  "moodle_upload_timestamp": null,
+  "planned_questions": 100,
+  "planned_conditions": 4,
+  "planned_models": 6,
+  "planned_responses": 2400,
+  "sha256": {
+    "questions_main.json": "7ae90ae6572e60c5203f880cce43b99b128496336787a28048769c0a59185e26",
+    "run_experiment.py": "e235d7791d7cf434365fbb352b79ae969667370463fe7bf3aa5ef1d4f0b1ebca",
+    "PROTOCOL.txt": "b99c4dac249aef1502e69758f2952b67acb1f595af0768ba9ebd796e1d1954d1",
+    "SCORING.txt": "aa144668ca8b7b05431b7b8f754fcc69916e6d656c540b36cc68f1242f54c241",
+    "source/TruthfulQA.csv": "b8d8ef1e12f98b4f2a9f47abc9765da0640b182b6c5d9b92f0c1a1f2f1e02e5c"
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve exact file bytes: protocol and answer provenance use SHA-256 hashes.
+* -text

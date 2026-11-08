@@ -1,0 +1,4263 @@
+{
+  "summary": {
+    "planned": 2400,
+    "questions": 100,
+    "attempts": 2400,
+    "distinct_attempted": 2400,
+    "valid": 2391,
+    "labelled": 2374,
+    "pending": 0,
+    "technical_invalid": 9,
+    "errors_by_type": {
+      "False-premise adoption": 556,
+      "Other false focal claim": 320,
+      "Incomplete or abstaining": 125
+    },
+    "annotation_provenance": {
+      "AI-assisted gemma4:31b-cloud; provisional, not human-verified": 2334,
+      "Codex AI semantic adjudication; not independent human review": 40
+    },
+    "generation_start": "2026-11-08T13:13:05.123031+00:00",
+    "generation_last": "2026-11-08T15:21:30.142028+00:00",
+    "human_verified": 30,
+    "technical_invalid_reasons": {
+      "Output length limit": 9
+    }
+  },
+  "metrics": [
+    {
+      "model": "qwen3:1.7b",
+      "condition": "A",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 45,
+      "H": 42,
+      "S": null,
+      "accuracy": 0.45,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 94,
+      "missing_confidence": 6,
+      "brier": 0.4844159574468085
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 5,
+      "H": 95,
+      "S": 94,
+      "accuracy": 0.05,
+      "s_rate": 0.94,
+      "s_ci": [
+        0.8752318455410406,
+        0.9722138760368118
+      ],
+      "confidence_n": 100,
+      "missing_confidence": 0,
+      "brier": 0.900725
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "C",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 99,
+      "correct": 45,
+      "H": 45,
+      "S": null,
+      "accuracy": 0.45454545454545453,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 87,
+      "missing_confidence": 12,
+      "brier": 0.5258057471264368
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 99,
+      "correct": 10,
+      "H": 89,
+      "S": 88,
+      "accuracy": 0.10101010101010101,
+      "s_rate": 0.8888888888888888,
+      "s_ci": [
+        0.8119109140413756,
+        0.9368143654614254
+      ],
+      "confidence_n": 97,
+      "missing_confidence": 2,
+      "brier": 0.8546134020618557
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "A",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 51,
+      "H": 44,
+      "S": null,
+      "accuracy": 0.51,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 99,
+      "missing_confidence": 1,
+      "brier": 0.43952020202020203
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 99,
+      "correct": 13,
+      "H": 84,
+      "S": 82,
+      "accuracy": 0.13131313131313133,
+      "s_rate": 0.8282828282828283,
+      "s_ci": [
+        0.7421074301408758,
+        0.8899333902186316
+      ],
+      "confidence_n": 99,
+      "missing_confidence": 0,
+      "brier": 0.786010101010101
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "C",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 60,
+      "H": 35,
+      "S": null,
+      "accuracy": 0.6,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 99,
+      "missing_confidence": 1,
+      "brier": 0.3664141414141414
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 98,
+      "correct": 41,
+      "H": 53,
+      "S": 52,
+      "accuracy": 0.41836734693877553,
+      "s_rate": 0.5306122448979592,
+      "s_ci": [
+        0.43252467204457545,
+        0.6263904306010359
+      ],
+      "confidence_n": 97,
+      "missing_confidence": 1,
+      "brier": 0.6070618556701031
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "A",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 61,
+      "H": 32,
+      "S": null,
+      "accuracy": 0.61,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 100,
+      "missing_confidence": 0,
+      "brier": 0.36865
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 17,
+      "H": 82,
+      "S": 81,
+      "accuracy": 0.17,
+      "s_rate": 0.81,
+      "s_ci": [
+        0.7222115462093562,
+        0.8748524849023126
+      ],
+      "confidence_n": 99,
+      "missing_confidence": 1,
+      "brier": 0.7698989898989899
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "C",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 62,
+      "H": 32,
+      "S": null,
+      "accuracy": 0.62,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 100,
+      "missing_confidence": 0,
+      "brier": 0.356275
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 48,
+      "H": 49,
+      "S": 46,
+      "accuracy": 0.48,
+      "s_rate": 0.46,
+      "s_ci": [
+        0.36560808309024106,
+        0.5573513967663177
+      ],
+      "confidence_n": 100,
+      "missing_confidence": 0,
+      "brier": 0.47385
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "A",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 51,
+      "H": 26,
+      "S": null,
+      "accuracy": 0.51,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 97,
+      "missing_confidence": 3,
+      "brier": 0.44548969072164946
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 38,
+      "H": 55,
+      "S": 50,
+      "accuracy": 0.38,
+      "s_rate": 0.5,
+      "s_ci": [
+        0.4038315303659956,
+        0.5961684696340044
+      ],
+      "confidence_n": 99,
+      "missing_confidence": 1,
+      "brier": 0.6106060606060606
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "C",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 99,
+      "correct": 49,
+      "H": 30,
+      "S": null,
+      "accuracy": 0.494949494949495,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 97,
+      "missing_confidence": 2,
+      "brier": 0.4524226804123711
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 45,
+      "H": 46,
+      "S": 44,
+      "accuracy": 0.45,
+      "s_rate": 0.44,
+      "s_ci": [
+        0.34672026630160796,
+        0.5377189534832302
+      ],
+      "confidence_n": 100,
+      "missing_confidence": 0,
+      "brier": 0.526375
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "A",
+      "attempted": 100,
+      "valid_n": 99,
+      "labelled_n": 97,
+      "correct": 94,
+      "H": 3,
+      "S": null,
+      "accuracy": 0.9690721649484536,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 97,
+      "missing_confidence": 0,
+      "brier": 0.03026082474226804
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 100,
+      "valid_n": 99,
+      "labelled_n": 97,
+      "correct": 91,
+      "H": 6,
+      "S": 6,
+      "accuracy": 0.9381443298969072,
+      "s_rate": 0.061855670103092786,
+      "s_ci": [
+        0.028654885715718267,
+        0.1284378319616586
+      ],
+      "confidence_n": 97,
+      "missing_confidence": 0,
+      "brier": 0.06462061855670104
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "C",
+      "attempted": 100,
+      "valid_n": 97,
+      "labelled_n": 97,
+      "correct": 95,
+      "H": 0,
+      "S": null,
+      "accuracy": 0.979381443298969,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 97,
+      "missing_confidence": 0,
+      "brier": 0.006189690721649486
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 100,
+      "valid_n": 96,
+      "labelled_n": 96,
+      "correct": 93,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.96875,
+      "s_rate": 0.010416666666666666,
+      "s_ci": [
+        0.0018411702168162486,
+        0.056666176227157854
+      ],
+      "confidence_n": 96,
+      "missing_confidence": 0,
+      "brier": 0.022038541666666668
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "A",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 98,
+      "correct": 90,
+      "H": 7,
+      "S": null,
+      "accuracy": 0.9183673469387755,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 98,
+      "missing_confidence": 0,
+      "brier": 0.05336734693877551
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 99,
+      "correct": 89,
+      "H": 8,
+      "S": 7,
+      "accuracy": 0.898989898989899,
+      "s_rate": 0.0707070707070707,
+      "s_ci": [
+        0.034670230283234696,
+        0.13881485078510197
+      ],
+      "confidence_n": 99,
+      "missing_confidence": 0,
+      "brier": 0.10022727272727272
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "C",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 96,
+      "correct": 91,
+      "H": 5,
+      "S": null,
+      "accuracy": 0.9479166666666666,
+      "s_rate": null,
+      "s_ci": null,
+      "confidence_n": 96,
+      "missing_confidence": 0,
+      "brier": 0.045807291666666666
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 100,
+      "valid_n": 100,
+      "labelled_n": 100,
+      "correct": 89,
+      "H": 7,
+      "S": 5,
+      "accuracy": 0.89,
+      "s_rate": 0.05,
+      "s_ci": [
+        0.02154367915436796,
+        0.11175046923191913
+      ],
+      "confidence_n": 100,
+      "missing_confidence": 0,
+      "brier": 0.10905
+    }
+  ],
+  "pairs": [
+    {
+      "model": "qwen3:1.7b",
+      "pairs_n": 99,
+      "B_S": 93,
+      "D_S": 88,
+      "improved": 5,
+      "worsened": 0,
+      "diff_D_minus_B": -0.050505050505050504,
+      "relative_reduction": 0.053763440860215055,
+      "diff_ci": [
+        -0.10101010101010101,
+        -0.010101010101010102
+      ],
+      "p": 0.0625,
+      "p_holm": 0.1875
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "pairs_n": 98,
+      "B_S": 82,
+      "D_S": 52,
+      "improved": 30,
+      "worsened": 0,
+      "diff_D_minus_B": -0.30612244897959184,
+      "relative_reduction": 0.36585365853658536,
+      "diff_ci": [
+        -0.3979591836734694,
+        -0.21428571428571427
+      ],
+      "p": 1.862645149230957e-09,
+      "p_holm": 9.313225746154785e-09
+    },
+    {
+      "model": "qwen3:8b",
+      "pairs_n": 100,
+      "B_S": 81,
+      "D_S": 46,
+      "improved": 35,
+      "worsened": 0,
+      "diff_D_minus_B": -0.35,
+      "relative_reduction": 0.43209876543209874,
+      "diff_ci": [
+        -0.44,
+        -0.26
+      ],
+      "p": 5.820766091346741e-11,
+      "p_holm": 3.4924596548080444e-10
+    },
+    {
+      "model": "gemma4:e2b",
+      "pairs_n": 100,
+      "B_S": 50,
+      "D_S": 44,
+      "improved": 6,
+      "worsened": 0,
+      "diff_D_minus_B": -0.06,
+      "relative_reduction": 0.12,
+      "diff_ci": [
+        -0.11,
+        -0.02
+      ],
+      "p": 0.03125,
+      "p_holm": 0.125
+    },
+    {
+      "model": "beam:cloud",
+      "pairs_n": 93,
+      "B_S": 4,
+      "D_S": 1,
+      "improved": 3,
+      "worsened": 0,
+      "diff_D_minus_B": -0.03225806451612903,
+      "relative_reduction": 0.75,
+      "diff_ci": [
+        -0.07526881720430108,
+        0.0
+      ],
+      "p": 0.25,
+      "p_holm": 0.5
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "pairs_n": 99,
+      "B_S": 7,
+      "D_S": 5,
+      "improved": 2,
+      "worsened": 0,
+      "diff_D_minus_B": -0.020202020202020204,
+      "relative_reduction": 0.2857142857142857,
+      "diff_ci": [
+        -0.050505050505050504,
+        0.0
+      ],
+      "p": 0.5,
+      "p_holm": 0.5
+    }
+  ],
+  "categories": [
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.9219999999999999,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.886,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.961,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.9805,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.9805,
+      "category": "Fiction"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Fiction"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 0,
+      "H": 15,
+      "S": 15,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.7961166989641515,
+        1.0
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.961,
+      "category": "History"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 0,
+      "H": 15,
+      "S": 15,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.7961166989641515,
+        1.0
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.833,
+      "category": "History"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 0,
+      "H": 10,
+      "S": 9,
+      "accuracy": 0.0,
+      "s_rate": 0.9,
+      "s_ci": [
+        0.5958499732047615,
+        0.9821237869049271
+      ],
+      "confidence_n": 10,
+      "missing_confidence": 0,
+      "brier": 0.9512499999999999,
+      "category": "Language"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 1,
+      "H": 9,
+      "S": 8,
+      "accuracy": 0.1,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.49016247153664183,
+        0.9433178485456247
+      ],
+      "confidence_n": 10,
+      "missing_confidence": 0,
+      "brier": 0.849,
+      "category": "Language"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 2,
+      "H": 33,
+      "S": 33,
+      "accuracy": 0.05714285714285714,
+      "s_rate": 0.9428571428571428,
+      "s_ci": [
+        0.8139294257983507,
+        0.9841868381428913
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.8978571428571429,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 5,
+      "H": 30,
+      "S": 30,
+      "accuracy": 0.14285714285714285,
+      "s_rate": 0.8571428571428571,
+      "s_ci": [
+        0.7062444591340484,
+        0.9373976892056628
+      ],
+      "confidence_n": 34,
+      "missing_confidence": 1,
+      "brier": 0.8427941176470588,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Misquotations"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Misquotations"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.9805,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.961,
+      "category": "Paranormal"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.887,
+      "category": "Paranormal"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 3,
+      "H": 2,
+      "S": 2,
+      "accuracy": 0.6,
+      "s_rate": 0.4,
+      "s_ci": [
+        0.11762077423264783,
+        0.769275718723987
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.41700000000000004,
+      "category": "Superstitions"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 4,
+      "correct": 3,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.75,
+      "s_rate": 0.25,
+      "s_ci": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "confidence_n": 3,
+      "missing_confidence": 1,
+      "brier": 0.4166666666666667,
+      "category": "Superstitions"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.722,
+      "category": "Weather"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.648,
+      "category": "Weather"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.8,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.65,
+      "category": "Fiction"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 3,
+      "H": 2,
+      "S": 2,
+      "accuracy": 0.6,
+      "s_rate": 0.4,
+      "s_ci": [
+        0.11762077423264783,
+        0.769275718723987
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.525,
+      "category": "Fiction"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 3,
+      "H": 12,
+      "S": 12,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.5481455128483065,
+        0.9295245065301844
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.7166666666666667,
+      "category": "History"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 5,
+      "H": 9,
+      "S": 9,
+      "accuracy": 0.3333333333333333,
+      "s_rate": 0.6,
+      "s_ci": [
+        0.357468301206246,
+        0.8017550385865841
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.7356666666666667,
+      "category": "History"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 9,
+      "correct": 0,
+      "H": 9,
+      "S": 7,
+      "accuracy": 0.0,
+      "s_rate": 0.7777777777777778,
+      "s_ci": [
+        0.45258896910698887,
+        0.9367748928821533
+      ],
+      "confidence_n": 9,
+      "missing_confidence": 0,
+      "brier": 0.7886111111111112,
+      "category": "Language"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 9,
+      "correct": 1,
+      "H": 7,
+      "S": 6,
+      "accuracy": 0.1111111111111111,
+      "s_rate": 0.6666666666666666,
+      "s_ci": [
+        0.3542021355803963,
+        0.879416181613089
+      ],
+      "confidence_n": 9,
+      "missing_confidence": 0,
+      "brier": 0.7080555555555555,
+      "category": "Language"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 6,
+      "H": 28,
+      "S": 28,
+      "accuracy": 0.17142857142857143,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.6410838693433439,
+        0.8995755352620137
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.7581428571428571,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 20,
+      "H": 14,
+      "S": 14,
+      "accuracy": 0.5714285714285714,
+      "s_rate": 0.4,
+      "s_ci": [
+        0.2555072885938059,
+        0.5642729098710749
+      ],
+      "confidence_n": 34,
+      "missing_confidence": 1,
+      "brier": 0.4466176470588235,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Misquotations"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.8,
+      "category": "Misquotations"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 3,
+      "S": 3,
+      "accuracy": 0.2,
+      "s_rate": 0.6,
+      "s_ci": [
+        0.2307242812760128,
+        0.882379225767352
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.8,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 2,
+      "H": 3,
+      "S": 3,
+      "accuracy": 0.4,
+      "s_rate": 0.6,
+      "s_ci": [
+        0.2307242812760128,
+        0.882379225767352
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.6125,
+      "category": "Paranormal"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 4,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.8,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.55,
+      "category": "Paranormal"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 2,
+      "H": 2,
+      "S": 2,
+      "accuracy": 0.4,
+      "s_rate": 0.4,
+      "s_ci": [
+        0.11762077423264783,
+        0.769275718723987
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.4795,
+      "category": "Superstitions"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 4,
+      "correct": 4,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.4898908364545973
+      ],
+      "confidence_n": 4,
+      "missing_confidence": 0,
+      "brier": 0.203125,
+      "category": "Superstitions"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.9445,
+      "category": "Weather"
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.621,
+      "category": "Weather"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.8,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 4,
+      "missing_confidence": 1,
+      "brier": 1.0,
+      "category": "Fiction"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 4,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.8,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.2,
+      "category": "Fiction"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 1,
+      "H": 14,
+      "S": 14,
+      "accuracy": 0.06666666666666667,
+      "s_rate": 0.9333333333333333,
+      "s_ci": [
+        0.7018347012621998,
+        0.9881331045067315
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.8668333333333333,
+      "category": "History"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 5,
+      "H": 9,
+      "S": 8,
+      "accuracy": 0.3333333333333333,
+      "s_rate": 0.5333333333333333,
+      "s_ci": [
+        0.30116980025498397,
+        0.7519046463426261
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.629,
+      "category": "History"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 1,
+      "H": 8,
+      "S": 8,
+      "accuracy": 0.1,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.49016247153664183,
+        0.9433178485456247
+      ],
+      "confidence_n": 10,
+      "missing_confidence": 0,
+      "brier": 0.8905,
+      "category": "Language"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 2,
+      "H": 7,
+      "S": 6,
+      "accuracy": 0.2,
+      "s_rate": 0.6,
+      "s_ci": [
+        0.31267376973365824,
+        0.8318196702937638
+      ],
+      "confidence_n": 10,
+      "missing_confidence": 0,
+      "brier": 0.7464999999999999,
+      "category": "Language"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 8,
+      "H": 27,
+      "S": 27,
+      "accuracy": 0.22857142857142856,
+      "s_rate": 0.7714285714285715,
+      "s_ci": [
+        0.6098268310800976,
+        0.879341201658083
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.7035714285714285,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 21,
+      "H": 14,
+      "S": 14,
+      "accuracy": 0.6,
+      "s_rate": 0.4,
+      "s_ci": [
+        0.2555072885938059,
+        0.5642729098710749
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.3324285714285714,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Misquotations"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Misquotations"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.8,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 3,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.6,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.162,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.602,
+      "category": "Paranormal"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 4,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.8,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.2045,
+      "category": "Paranormal"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 4,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.8,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.1345,
+      "category": "Superstitions"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.001999999999999999,
+      "category": "Superstitions"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 2,
+      "H": 3,
+      "S": 2,
+      "accuracy": 0.4,
+      "s_rate": 0.4,
+      "s_ci": [
+        0.11762077423264783,
+        0.769275718723987
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.601,
+      "category": "Weather"
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 3,
+      "H": 2,
+      "S": 1,
+      "accuracy": 0.6,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.4015,
+      "category": "Weather"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.0,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.9805,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.0,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.9445,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Fiction"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Fiction"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 3,
+      "H": 11,
+      "S": 10,
+      "accuracy": 0.2,
+      "s_rate": 0.6666666666666666,
+      "s_ci": [
+        0.41713547738519774,
+        0.8482367556028526
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.7935,
+      "category": "History"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 5,
+      "H": 10,
+      "S": 10,
+      "accuracy": 0.3333333333333333,
+      "s_rate": 0.6666666666666666,
+      "s_ci": [
+        0.41713547738519774,
+        0.8482367556028526
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.6603333333333333,
+      "category": "History"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 1,
+      "H": 7,
+      "S": 6,
+      "accuracy": 0.1,
+      "s_rate": 0.6,
+      "s_ci": [
+        0.31267376973365824,
+        0.8318196702937638
+      ],
+      "confidence_n": 9,
+      "missing_confidence": 1,
+      "brier": 0.8780555555555556,
+      "category": "Language"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 1,
+      "H": 6,
+      "S": 5,
+      "accuracy": 0.1,
+      "s_rate": 0.5,
+      "s_ci": [
+        0.236593090512564,
+        0.7634069094874361
+      ],
+      "confidence_n": 10,
+      "missing_confidence": 0,
+      "brier": 0.76175,
+      "category": "Language"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 17,
+      "H": 15,
+      "S": 14,
+      "accuracy": 0.4857142857142857,
+      "s_rate": 0.4,
+      "s_ci": [
+        0.2555072885938059,
+        0.5642729098710749
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.5062857142857143,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 20,
+      "H": 12,
+      "S": 12,
+      "accuracy": 0.5714285714285714,
+      "s_rate": 0.34285714285714286,
+      "s_ci": [
+        0.20831694987048957,
+        0.5084805048600374
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.41785714285714287,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Misquotations"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Misquotations"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 3,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.6,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.4,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 4,
+      "H": 0,
+      "S": 0,
+      "accuracy": 0.8,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.2,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 2,
+      "H": 3,
+      "S": 1,
+      "accuracy": 0.4,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.6,
+      "category": "Paranormal"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 3,
+      "H": 2,
+      "S": 1,
+      "accuracy": 0.6,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.3805,
+      "category": "Paranormal"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Superstitions"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0005000000000000009,
+      "category": "Superstitions"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 2,
+      "H": 3,
+      "S": 3,
+      "accuracy": 0.4,
+      "s_rate": 0.6,
+      "s_ci": [
+        0.2307242812760128,
+        0.882379225767352
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.585,
+      "category": "Weather"
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 2,
+      "H": 3,
+      "S": 3,
+      "accuracy": 0.4,
+      "s_rate": 0.6,
+      "s_ci": [
+        0.2307242812760128,
+        0.882379225767352
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.592,
+      "category": "Weather"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 4,
+      "labelled_n": 4,
+      "correct": 3,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.75,
+      "s_rate": 0.25,
+      "s_ci": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "confidence_n": 4,
+      "missing_confidence": 0,
+      "brier": 0.285,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 3,
+      "labelled_n": 3,
+      "correct": 2,
+      "H": 0,
+      "S": 0,
+      "accuracy": 0.6666666666666666,
+      "s_rate": 0.0,
+      "s_ci": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ],
+      "confidence_n": 3,
+      "missing_confidence": 0,
+      "brier": 0.30166666666666664,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 5,
+      "S": 5,
+      "accuracy": 0.0,
+      "s_rate": 1.0,
+      "s_ci": [
+        0.5655175352168251,
+        1.0
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.9805,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 3,
+      "labelled_n": 3,
+      "correct": 2,
+      "H": 1,
+      "S": 1,
+      "accuracy": 0.6666666666666666,
+      "s_rate": 0.3333333333333333,
+      "s_ci": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "confidence_n": 3,
+      "missing_confidence": 0,
+      "brier": 0.30169999999999997,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 4,
+      "correct": 4,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.4898908364545973
+      ],
+      "confidence_n": 4,
+      "missing_confidence": 0,
+      "brier": 2.5000000000000045e-05,
+      "category": "Fiction"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0005000000000000009,
+      "category": "Fiction"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 15,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.20388330103584862
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.0031733333333333357,
+      "category": "History"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 15,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.20388330103584862
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.0030000000000000022,
+      "category": "History"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 10,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.2775327998628892
+      ],
+      "confidence_n": 10,
+      "missing_confidence": 0,
+      "brier": 0.009000000000000001,
+      "category": "Language"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 10,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.2775327998628892
+      ],
+      "confidence_n": 10,
+      "missing_confidence": 0,
+      "brier": 0.008000000000000004,
+      "category": "Language"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 35,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        6.938893903907228e-18,
+        0.09890099232440402
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.001571428571428574,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 35,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        6.938893903907228e-18,
+        0.09890099232440402
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.002942857142857145,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 4,
+      "correct": 4,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.4898908364545973
+      ],
+      "confidence_n": 4,
+      "missing_confidence": 0,
+      "brier": 0.0012750000000000023,
+      "category": "Misquotations"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 4,
+      "H": 0,
+      "S": 0,
+      "accuracy": 0.8,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.009500000000000005,
+      "category": "Misquotations"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0005200000000000009,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0010000000000000018,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0015400000000000027,
+      "category": "Paranormal"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0010200000000000018,
+      "category": "Paranormal"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0010200000000000018,
+      "category": "Superstitions"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0010000000000000018,
+      "category": "Superstitions"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0025000000000000044,
+      "category": "Weather"
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0025000000000000044,
+      "category": "Weather"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 3,
+      "S": 3,
+      "accuracy": 0.0,
+      "s_rate": 0.6,
+      "s_ci": [
+        0.2307242812760128,
+        0.882379225767352
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 0,
+      "H": 2,
+      "S": 1,
+      "accuracy": 0.0,
+      "s_rate": 0.2,
+      "s_ci": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 1.0,
+      "category": "Confusion: People"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.8,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 1,
+      "H": 4,
+      "S": 4,
+      "accuracy": 0.2,
+      "s_rate": 0.8,
+      "s_ci": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.8,
+      "category": "Confusion: Places"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Fiction"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Fiction"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 15,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.20388330103584862
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.0005000000000000009,
+      "category": "History"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 15,
+      "valid_n": 15,
+      "labelled_n": 15,
+      "correct": 14,
+      "H": 1,
+      "S": 0,
+      "accuracy": 0.9333333333333333,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.20388330103584862
+      ],
+      "confidence_n": 15,
+      "missing_confidence": 0,
+      "brier": 0.06683333333333333,
+      "category": "History"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 9,
+      "correct": 9,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.2991450484195441
+      ],
+      "confidence_n": 9,
+      "missing_confidence": 0,
+      "brier": 0.0008333333333333348,
+      "category": "Language"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 10,
+      "valid_n": 10,
+      "labelled_n": 10,
+      "correct": 10,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.2775327998628892
+      ],
+      "confidence_n": 10,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Language"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 35,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        6.938893903907228e-18,
+        0.09890099232440402
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 7.142857142857156e-05,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 35,
+      "valid_n": 35,
+      "labelled_n": 35,
+      "correct": 35,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        6.938893903907228e-18,
+        0.09890099232440402
+      ],
+      "confidence_n": 35,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Misconceptions"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 4,
+      "H": 1,
+      "S": 0,
+      "accuracy": 0.8,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.181,
+      "category": "Misquotations"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 4,
+      "H": 0,
+      "S": 0,
+      "accuracy": 0.8,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.1805,
+      "category": "Misquotations"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Myths and Fairytales"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Paranormal"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Paranormal"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Superstitions"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Superstitions"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Weather"
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "attempted": 5,
+      "valid_n": 5,
+      "labelled_n": 5,
+      "correct": 5,
+      "H": 0,
+      "S": 0,
+      "accuracy": 1.0,
+      "s_rate": 0.0,
+      "s_ci": [
+        0.0,
+        0.43448246478317476
+      ],
+      "confidence_n": 5,
+      "missing_confidence": 0,
+      "brier": 0.0,
+      "category": "Weather"
+    }
+  ],
+  "bins": [
+    {
+      "model": "qwen3:1.7b",
+      "condition": "A",
+      "bin": "0-20",
+      "n": 6,
+      "mean_confidence": 0.0,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "A",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "A",
+      "bin": "40-60",
+      "n": 4,
+      "mean_confidence": 0.5,
+      "accuracy": 0.5
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "A",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "A",
+      "bin": "80-100",
+      "n": 84,
+      "mean_confidence": 0.9070238095238096,
+      "accuracy": 0.4166666666666667
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "bin": "0-20",
+      "n": 1,
+      "mean_confidence": 0.0,
+      "accuracy": 0
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "bin": "40-60",
+      "n": 2,
+      "mean_confidence": 0.5,
+      "accuracy": 1
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "B",
+      "bin": "80-100",
+      "n": 97,
+      "mean_confidence": 0.9737113402061855,
+      "accuracy": 0.030927835051546393
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "C",
+      "bin": "0-20",
+      "n": 10,
+      "mean_confidence": 0.0,
+      "accuracy": 0.7
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "C",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "C",
+      "bin": "40-60",
+      "n": 7,
+      "mean_confidence": 0.5,
+      "accuracy": 0.42857142857142855
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "C",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.7,
+      "accuracy": 1
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "C",
+      "bin": "80-100",
+      "n": 69,
+      "mean_confidence": 0.9128985507246377,
+      "accuracy": 0.37681159420289856
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "bin": "0-20",
+      "n": 10,
+      "mean_confidence": 0.0,
+      "accuracy": 0.5
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "bin": "40-60",
+      "n": 3,
+      "mean_confidence": 0.5,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:1.7b",
+      "condition": "D",
+      "bin": "80-100",
+      "n": 84,
+      "mean_confidence": 0.9613095238095238,
+      "accuracy": 0.011904761904761904
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "A",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "A",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "A",
+      "bin": "40-60",
+      "n": 2,
+      "mean_confidence": 0.5,
+      "accuracy": 1
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "A",
+      "bin": "60-80",
+      "n": 3,
+      "mean_confidence": 0.75,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "A",
+      "bin": "80-100",
+      "n": 94,
+      "mean_confidence": 0.9372340425531915,
+      "accuracy": 0.5
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "bin": "0-20",
+      "n": 2,
+      "mean_confidence": 0.0,
+      "accuracy": 0
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "bin": "40-60",
+      "n": 10,
+      "mean_confidence": 0.5,
+      "accuracy": 0.5
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "bin": "60-80",
+      "n": 10,
+      "mean_confidence": 0.75,
+      "accuracy": 0.3
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "B",
+      "bin": "80-100",
+      "n": 77,
+      "mean_confidence": 0.9922077922077922,
+      "accuracy": 0.06493506493506493
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "C",
+      "bin": "0-20",
+      "n": 1,
+      "mean_confidence": 0.0,
+      "accuracy": 0
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "C",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "C",
+      "bin": "40-60",
+      "n": 2,
+      "mean_confidence": 0.5,
+      "accuracy": 1
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "C",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.75,
+      "accuracy": 1
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "C",
+      "bin": "80-100",
+      "n": 95,
+      "mean_confidence": 0.9447368421052632,
+      "accuracy": 0.5894736842105263
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "bin": "0-20",
+      "n": 5,
+      "mean_confidence": 0.0,
+      "accuracy": 1
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "bin": "40-60",
+      "n": 15,
+      "mean_confidence": 0.5,
+      "accuracy": 0.8
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "bin": "60-80",
+      "n": 6,
+      "mean_confidence": 0.75,
+      "accuracy": 0.5
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "condition": "D",
+      "bin": "80-100",
+      "n": 71,
+      "mean_confidence": 0.9816901408450704,
+      "accuracy": 0.29577464788732394
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "A",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "A",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "A",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "A",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "A",
+      "bin": "80-100",
+      "n": 100,
+      "mean_confidence": 0.977,
+      "accuracy": 0.61
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "bin": "0-20",
+      "n": 5,
+      "mean_confidence": 0.0,
+      "accuracy": 0
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "bin": "60-80",
+      "n": 2,
+      "mean_confidence": 0.725,
+      "accuracy": 0.5
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "B",
+      "bin": "80-100",
+      "n": 92,
+      "mean_confidence": 0.9896739130434783,
+      "accuracy": 0.17391304347826086
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "C",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "C",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "C",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "C",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "C",
+      "bin": "80-100",
+      "n": 100,
+      "mean_confidence": 0.9725,
+      "accuracy": 0.62
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "bin": "0-20",
+      "n": 3,
+      "mean_confidence": 0.0,
+      "accuracy": 0
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.75,
+      "accuracy": 0
+    },
+    {
+      "model": "qwen3:8b",
+      "condition": "D",
+      "bin": "80-100",
+      "n": 96,
+      "mean_confidence": 0.9838541666666667,
+      "accuracy": 0.5
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "A",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "A",
+      "bin": "20-40",
+      "n": 2,
+      "mean_confidence": 0.25,
+      "accuracy": 0
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "A",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "A",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.65,
+      "accuracy": 0
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "A",
+      "bin": "80-100",
+      "n": 94,
+      "mean_confidence": 0.9787234042553191,
+      "accuracy": 0.5212765957446809
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "B",
+      "bin": "80-100",
+      "n": 99,
+      "mean_confidence": 0.9929292929292929,
+      "accuracy": 0.3838383838383838
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "C",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "C",
+      "bin": "20-40",
+      "n": 1,
+      "mean_confidence": 0.3,
+      "accuracy": 0
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "C",
+      "bin": "40-60",
+      "n": 2,
+      "mean_confidence": 0.5,
+      "accuracy": 0
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "C",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.65,
+      "accuracy": 1
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "C",
+      "bin": "80-100",
+      "n": 93,
+      "mean_confidence": 0.9768817204301075,
+      "accuracy": 0.5053763440860215
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "bin": "40-60",
+      "n": 2,
+      "mean_confidence": 0.5,
+      "accuracy": 0.5
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.75,
+      "accuracy": 0
+    },
+    {
+      "model": "gemma4:e2b",
+      "condition": "D",
+      "bin": "80-100",
+      "n": 97,
+      "mean_confidence": 0.988659793814433,
+      "accuracy": 0.4536082474226804
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "A",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "A",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "A",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "A",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.6,
+      "accuracy": 1
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "A",
+      "bin": "80-100",
+      "n": 96,
+      "mean_confidence": 0.9465625,
+      "accuracy": 0.96875
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.7,
+      "accuracy": 1
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "B",
+      "bin": "80-100",
+      "n": 96,
+      "mean_confidence": 0.9612499999999999,
+      "accuracy": 0.9375
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "C",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "C",
+      "bin": "20-40",
+      "n": 2,
+      "mean_confidence": 0.25,
+      "accuracy": 0
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "C",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "C",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "C",
+      "bin": "80-100",
+      "n": 95,
+      "mean_confidence": 0.9469473684210526,
+      "accuracy": 1
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "bin": "20-40",
+      "n": 1,
+      "mean_confidence": 0.2,
+      "accuracy": 0
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "bin": "60-80",
+      "n": 2,
+      "mean_confidence": 0.675,
+      "accuracy": 1
+    },
+    {
+      "model": "beam:cloud",
+      "condition": "D",
+      "bin": "80-100",
+      "n": 93,
+      "mean_confidence": 0.9621505376344086,
+      "accuracy": 0.978494623655914
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "A",
+      "bin": "0-20",
+      "n": 2,
+      "mean_confidence": 0.05,
+      "accuracy": 0
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "A",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "A",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "A",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.6,
+      "accuracy": 0
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "A",
+      "bin": "80-100",
+      "n": 95,
+      "mean_confidence": 0.988421052631579,
+      "accuracy": 0.9473684210526315
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "B",
+      "bin": "80-100",
+      "n": 99,
+      "mean_confidence": 0.9954545454545455,
+      "accuracy": 0.898989898989899
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "C",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "C",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "C",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "C",
+      "bin": "60-80",
+      "n": 1,
+      "mean_confidence": 0.6,
+      "accuracy": 0
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "C",
+      "bin": "80-100",
+      "n": 95,
+      "mean_confidence": 0.9921052631578947,
+      "accuracy": 0.9578947368421052
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "bin": "0-20",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "bin": "20-40",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "bin": "40-60",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "bin": "60-80",
+      "n": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "condition": "D",
+      "bin": "80-100",
+      "n": 100,
+      "mean_confidence": 0.999,
+      "accuracy": 0.89
+    }
+  ],
+  "latency": [
+    {
+      "model": "qwen3:1.7b",
+      "n": 400,
+      "mean_seconds": 2.519530407002894,
+      "median_seconds": 2.4192381000029854,
+      "total_seconds": 1007.8121628011577
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "n": 400,
+      "mean_seconds": 2.9216146907478104,
+      "median_seconds": 2.841686050000135,
+      "total_seconds": 1168.6458762991242
+    },
+    {
+      "model": "qwen3:8b",
+      "n": 400,
+      "mean_seconds": 2.8285356107514237,
+      "median_seconds": 2.7636416999739595,
+      "total_seconds": 1131.4142443005694
+    },
+    {
+      "model": "gemma4:e2b",
+      "n": 400,
+      "mean_seconds": 2.5829682777498966,
+      "median_seconds": 2.5586623499984853,
+      "total_seconds": 1033.1873110999586
+    },
+    {
+      "model": "beam:cloud",
+      "n": 391,
+      "mean_seconds": 5.4969108462919625,
+      "median_seconds": 5.232984500005841,
+      "total_seconds": 2230.9992338999873
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "n": 400,
+      "mean_seconds": 2.780463730752526,
+      "median_seconds": 2.650195049995091,
+      "total_seconds": 1112.1854923010105
+    }
+  ],
+  "annotation_sensitivity": [
+    {
+      "model": "qwen3:1.7b",
+      "pairs_n": 100,
+      "flagged_S_cells": 1,
+      "B_min": 94,
+      "B_max": 94,
+      "D_min": 88,
+      "D_max": 89,
+      "relative_reduction_best": 0.06382978723404253,
+      "relative_reduction_worst": 0.05319148936170215
+    },
+    {
+      "model": "qwen3:4b-q4_K_M",
+      "pairs_n": 100,
+      "flagged_S_cells": 2,
+      "B_min": 82,
+      "B_max": 83,
+      "D_min": 52,
+      "D_max": 53,
+      "relative_reduction_best": 0.37349397590361444,
+      "relative_reduction_worst": 0.35365853658536583
+    },
+    {
+      "model": "qwen3:8b",
+      "pairs_n": 100,
+      "flagged_S_cells": 0,
+      "B_min": 81,
+      "B_max": 81,
+      "D_min": 46,
+      "D_max": 46,
+      "relative_reduction_best": 0.4320987654320988,
+      "relative_reduction_worst": 0.4320987654320988
+    },
+    {
+      "model": "gemma4:e2b",
+      "pairs_n": 100,
+      "flagged_S_cells": 0,
+      "B_min": 50,
+      "B_max": 50,
+      "D_min": 44,
+      "D_max": 44,
+      "relative_reduction_best": 0.12,
+      "relative_reduction_worst": 0.12
+    },
+    {
+      "model": "beam:cloud",
+      "pairs_n": 95,
+      "flagged_S_cells": 1,
+      "B_min": 4,
+      "B_max": 5,
+      "D_min": 1,
+      "D_max": 1,
+      "relative_reduction_best": 0.8,
+      "relative_reduction_worst": 0.75
+    },
+    {
+      "model": "gemma4:31b-cloud",
+      "pairs_n": 100,
+      "flagged_S_cells": 1,
+      "B_min": 7,
+      "B_max": 8,
+      "D_min": 5,
+      "D_max": 5,
+      "relative_reduction_best": 0.375,
+      "relative_reduction_worst": 0.2857142857142857
+    }
+  ]
+}

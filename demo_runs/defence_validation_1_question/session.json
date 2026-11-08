@@ -1,0 +1,9 @@
+{
+  "ended_utc": "2026-11-08T15:24:08.858572+00:00",
+  "status": "finished",
+  "reason": null,
+  "planned": 24,
+  "attempted_distinct": 24,
+  "valid": 24,
+  "pending": 0
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "model": "beam:cloud",
+    "attempted": 4,
+    "valid": 4,
+    "technical_exclusions": 0,
+    "manual_review_required": 4,
+    "H_count": 0,
+    "H_denominator": 0,
+    "H_percent": null,
+    "S_count": 0,
+    "S_denominator": 0,
+    "S_percent": null
+  },
+  {
+    "model": "gemma4:31b-cloud",
+    "attempted": 4,
+    "valid": 4,
+    "technical_exclusions": 0,
+    "manual_review_required": 2,
+    "H_count": 0,
+    "H_denominator": 2,
+    "H_percent": 0.0,
+    "S_count": 0,
+    "S_denominator": 0,
+    "S_percent": null
+  }
+]

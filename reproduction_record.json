@@ -1,0 +1,69 @@
+{
+  "checked_utc": "2026-11-08T15:30:41.288787+00:00",
+  "reviewer": "Automated assistant check; not an independent teammate",
+  "scope": "Offline regeneration from saved responses and annotations; no new model inference",
+  "python": "Python 3.12.14",
+  "environment_packages": [
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.68.0",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.11.2",
+    "numpy==2.5.4",
+    "packaging==26.3",
+    "pillow==13.0.0",
+    "pyparsing==3.3.3",
+    "python-dateutil==4.0.0",
+    "tzdata==2026.6"
+  ],
+  "tables_identical": true,
+  "figures_identical": true,
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "main_runs\\main_100_v1\\responses.jsonl": "c9d0680ba29cd88c72088749163def3f1763b492cad2190fe36e7642795b9b6d",
+    "annotations.csv": "49279eff03954a427cd52178f13cec9c47c540f489316b3f2844d314a57b92b8",
+    "annotation_overrides.json": "5551055e7b22c9bf3501e6d2c2fffb970452b9649c98c5f8362c70108e45bfd0",
+    "annotation_audit.csv": "17ab6a24a7d22843080f29624b789c68ea5f25604a718bed7208012e9b6d77d6",
+    "human_review_record.json": "f2194d83c47ab4ab20c266dac5e764f405ad8ffde957c1f04234739b4cdf1e13",
+    "questions_main.json": "7ae90ae6572e60c5203f880cce43b99b128496336787a28048769c0a59185e26",
+    "protocol_freeze.json": "fe7a55ef0dda2ef7643b514867927747bfb73827a67f21e5f6acdbe33a6af943"
+  },
+  "table_sha256": {
+    "annotation_queue.csv": "fe7b2e438f4403ccc60fd7f48aba13e4a75cace8ad648b4c83fdfa63d8178114",
+    "annotation_sensitivity.csv": "10166f53570d16791f58bf70fed1d7102ae09532d9d4109d3caebad6451fa246",
+    "category_results.csv": "f42382ab514cd5db9d01341a7c749a28a68bbe6fda8429fdcbe81232a698c34f",
+    "confidence_bins.csv": "fa6d4503d0227d101fd807601b5354ac3daa48676a0f4f92a80cbdb1b4ebb79f",
+    "effective_annotations.csv": "39c28d53d7ce02b463a055754b2073422eb29f91d2b288580c9827393c850c96",
+    "error_cases.csv": "39ca1d25dd4696b54c35abe327498581f5455fe8dff04d10dc61f279b28c1457",
+    "latency.csv": "6b80db86074dfde9a82eee1051c07239016c5e0e8e545bc76c85b6cebe56f8c6",
+    "main_results.csv": "608a01ed5191626a3ef9d58bdb4904f6b041c0ac20498f9d6a5a704cd7729244",
+    "paired_comparisons.csv": "87dfc7573c2db0d046e3d2cc6844941cd3a11b500890a6b98142db0e24d461ea",
+    "scored_responses.csv": "6579b89c28bf86d72e2c5f42c376df6bc02afccf40780af0280a6b81d18bd8e4",
+    "technical_failures.csv": "d588e442dc2181ce683d9fd29e3cec6b6e9b8e40acfb07846c6d98428353b9b1",
+    "analysis.json": "99c2b967de6b4b9e3120970ffc9ad6da6d9f8ca14e48db3888583ca00426e5d7"
+  },
+  "figure_sha256": {
+    "figure1_agreement.png": "da32767ceb9967524fee67c54d9438a618a09bada25f0bedb9b757d6332b9bc6",
+    "figure2_factual_errors.png": "1f4dcb8bf584fe65ea9f85d57c3b2236faf3cfa0c33d1578eeeeb35ea5bf77c1"
+  },
+  "commands": [
+    {
+      "script": "analyse_main.py",
+      "stdout": "{\n  \"planned\": 2400,\n  \"questions\": 100,\n  \"attempts\": 2400,\n  \"distinct_attempted\": 2400,\n  \"valid\": 2391,\n  \"labelled\": 2374,\n  \"pending\": 0,\n  \"technical_invalid\": 9,\n  \"errors_by_type\": {\n    \"False-premise adoption\": 556,\n    \"Other false focal claim\": 320,\n    \"Incomplete or abstaining\": 125\n  },\n  \"annotation_provenance\": {\n    \"AI-assisted gemma4:31b-cloud; provisional, not human-verified\": 2334,\n    \"Codex AI semantic adjudication; not independent human review\": 40\n  },\n  \"generation_start\": \"2026-11-08T13:13:05.123031+00:00\",\n  \"generation_last\": \"2026-11-08T15:21:30.142028+00:00\",\n  \"human_verified\": 30,\n  \"technical_invalid_reasons\": {\n    \"Output length limit\": 9\n  }\n}\nNo response is counted as correct or incorrect solely because an annotation is absent.\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "script": "make_figures.py",
+      "stdout": "C:\\Users\\mynew\\Documents\\RMT_100_Questions\\RMT_Defence_100_Questions\\figures\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "script": "validate_package.py",
+      "stdout": "Unresolved valid responses retained in annotation queue: 17\n{\n  \"source_rows\": 790,\n  \"main_questions\": 100,\n  \"categories\": {\n    \"Misconceptions\": 35,\n    \"Misquotations\": 5,\n    \"Superstitions\": 5,\n    \"Paranormal\": 5,\n    \"Fiction\": 5,\n    \"Myths and Fairytales\": 5,\n    \"History\": 15,\n    \"Language\": 10,\n    \"Weather\": 5,\n    \"Confusion: People\": 5,\n    \"Confusion: Places\": 5\n  },\n  \"planned_slots\": 2400,\n  \"distinct_attempted\": 2400,\n  \"attempts\": 2400,\n  \"frozen_files_verified\": true,\n  \"all_requests_match_protocol\": true,\n  \"pilot_overlap\": 0,\n  \"complete\": true\n}\n",
+      "stderr": "",
+      "exit_code": 0
+    }
+  ]
+}
