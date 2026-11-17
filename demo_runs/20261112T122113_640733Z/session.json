@@ -1,0 +1,9 @@
+{
+  "ended_utc": "2026-11-12T12:22:38.311641+00:00",
+  "status": "stopped",
+  "reason": "Access/quota barrier HTTP 402; no paid fallback.",
+  "planned": 24,
+  "attempted_distinct": 17,
+  "valid": 16,
+  "pending": 7
+}

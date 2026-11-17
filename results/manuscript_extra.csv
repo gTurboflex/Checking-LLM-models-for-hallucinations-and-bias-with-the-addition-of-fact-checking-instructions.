@@ -1,0 +1,7 @@
+model,AB_pairs,A_correct,B_correct,AB_correct_to_incorrect,AB_incorrect_to_correct,AB_exact_mcnemar_p_unadjusted,BD_pairs,BD_B_correct,BD_D_correct,BD_incorrect_to_correct,BD_correct_to_incorrect,confidence_n,high_conf_n,high_conf_share_pct,high_conf_accuracy_pct
+qwen3:1.7b,100,45,5,42,2,1.127e-10,99,5,10,5,0,378,334,88.4,19.5
+qwen3:4b-q4_K_M,99,51,13,39,1,7.458e-11,98,12,41,30,1,394,337,85.5,38.3
+qwen3:8b,100,61,17,46,2,8.363e-12,100,17,48,31,0,399,388,97.2,48.2
+gemma4:e2b,100,51,38,18,5,0.01062,100,38,45,7,0,393,383,97.5,46.5
+beam:cloud,95,93,90,5,2,0.4531,93,89,91,2,0,387,380,98.2,97.1
+gemma4:31b-cloud,97,89,89,1,1,1,99,89,88,0,1,393,389,99.0,92.3

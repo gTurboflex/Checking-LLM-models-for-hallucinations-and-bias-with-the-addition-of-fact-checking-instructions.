@@ -59,9 +59,12 @@ historical_pilot/ — original 12-question evidence, if included; never pooled.
 results/ — reproducible CSV tables, annotation queue, error cases, JSON analysis.
 figures/ — plots generated from analysis.json.
 reports/ — A3 and A4 document copies.
+manuscript/ — final manuscript for the journal Information (MDPI): Word file and PDF preview.
+manuscript_extra_analysis.py, results/manuscript_extra.csv — supplementary manuscript numbers (A–B and B–D paired correctness changes, high-confidence accuracy).
+MANUSCRIPT_REPRODUCTION.md — maps every table, figure and number in the manuscript to its command and output file.
 
 LIMITS AND SUBMISSION STEPS
-This is a purposive English factual-question experiment, not the official TruthfulQA benchmark score. The independent item count is 100, not 2400. Repeated conditions are paired. Qwen 8B and cloud models are supplementary to the original 1B–7B scope. One generation per cell does not quantify seed variance. Cloud hardware/order effects are not isolated. The protocol JSON is a local freeze, not evidence of uploading it to Moodle. No remote repository URL or pre-run Moodle upload evidence was supplied. The included local Git repository has tag assignment-4. Full independent human annotation is not claimed; teammate reproduction is recorded only to the extent confirmed by the user. The study includes no-intervention prompt controls and larger model references; it does not execute a separate multi-stage mitigation such as CoVe. Confidence intervals describe item uncertainty, not a three-seed experiment.
+This is a purposive English factual-question experiment, not the official TruthfulQA benchmark score. The independent item count is 100, not 2400. Repeated conditions are paired. Qwen 8B and cloud models are supplementary to the original 1B–7B scope. One generation per cell does not quantify seed variance. Cloud hardware/order effects are not isolated. The protocol JSON is a local freeze, not evidence of uploading it to Moodle. No pre-run Moodle upload evidence was supplied. Public repository: https://github.com/gTurboflex/Does-a-Fact-Checking-System-Instruction-Reduce-False-Premise-Sycophancy- (tags assignment-4 and, after final approval, final). Full independent human annotation is not claimed; teammate reproduction is recorded only to the extent confirmed by the user. The study includes no-intervention prompt controls and larger model references; it does not execute a separate multi-stage mitigation such as CoVe. Confidence intervals describe item uncertainty, not a three-seed experiment.
 
 DATA SOURCE
 https://github.com/sylinrl/TruthfulQA
@@ -69,3 +72,10 @@ Downloaded from https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/Truthf
 
 FINAL EXECUTION STATUS
 The main run is finished: 2400 distinct planned slots attempted, 2391 technically valid answers, 9 length-truncated outputs retained, 2374 fully labelled valid answers and 17 unresolved cases. All 12 exported data files and both figures were reproduced byte-for-byte in a separately created environment (reproduction_record.json). The one-question live demo completed 24/24 valid responses in demo_runs/defence_validation_1_question. The two-question option plans 48 responses; it is not claimed as a completed 48-response validation.
+
+FINAL MANUSCRIPT
+The final project manuscript is in manuscript/. To regenerate everything it reports, run:
+python analyse_main.py
+python make_figures.py --dpi 600 --out figures/manuscript
+python manuscript_extra_analysis.py
+MANUSCRIPT_REPRODUCTION.md lists where each table, figure and number comes from. No model is contacted.
