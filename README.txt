@@ -62,6 +62,11 @@ reports/ — A3 and A4 document copies.
 manuscript/ — final manuscript for the journal Information (MDPI): Word file and PDF preview.
 manuscript_extra_analysis.py, results/manuscript_extra.csv — supplementary manuscript numbers (A–B and B–D paired correctness changes, high-confidence accuracy).
 MANUSCRIPT_REPRODUCTION.md — maps every table, figure and number in the manuscript to its command and output file.
+REPRODUCE_INDEPENDENTLY.md — step-by-step guide for outside reproducers: models, downloads, three reproduction levels.
+REPRODUCTION_REPORT_TEMPLATE.md — form for an independent reproducer to report the outcome.
+reproduce_offline.cmd/.sh, verify_reproduction.py — offline recomputation and SHA-256 comparison with reproduction_record.json.
+setup_models.cmd/.sh, check_ollama_models.py — download the six models with Ollama and check their digests.
+run_live_demo.cmd/.sh, run_full_rerun.cmd/.sh, compare_rerun.py — live demo, full rerun into a new folder, comparison with the saved run.
 
 LIMITS AND SUBMISSION STEPS
 This is a purposive English factual-question experiment, not the official TruthfulQA benchmark score. The independent item count is 100, not 2400. Repeated conditions are paired. Qwen 8B and cloud models are supplementary to the original 1B–7B scope. One generation per cell does not quantify seed variance. Cloud hardware/order effects are not isolated. The protocol JSON is a local freeze, not evidence of uploading it to Moodle. No pre-run Moodle upload evidence was supplied. Public repository: https://github.com/gTurboflex/Checking-LLM-models-for-hallucinations-and-bias-with-the-addition-of-fact-checking-instructions. (tags assignment-4 and, after final approval, final). Full independent human annotation is not claimed; teammate reproduction is recorded only to the extent confirmed by the user. The study includes no-intervention prompt controls and larger model references; it does not execute a separate multi-stage mitigation such as CoVe. Confidence intervals describe item uncertainty, not a three-seed experiment.
@@ -79,3 +84,6 @@ python analyse_main.py
 python make_figures.py --dpi 600 --out figures/manuscript
 python manuscript_extra_analysis.py
 MANUSCRIPT_REPRODUCTION.md lists where each table, figure and number comes from. No model is contacted.
+
+INDEPENDENT REPRODUCTION (FOR PEOPLE OUTSIDE THE TEAM)
+Read REPRODUCE_INDEPENDENTLY.md. Short version: Windows users double-click reproduce_offline.cmd; Linux/macOS users run bash reproduce_offline.sh. The script installs pinned packages, recomputes every table and ends with SUCCESS when all tables match the recorded hashes. To call the models yourself, install Ollama, run setup_models.cmd (or .sh), then run_live_demo.cmd (or .sh). Report the outcome with REPRODUCTION_REPORT_TEMPLATE.md.
